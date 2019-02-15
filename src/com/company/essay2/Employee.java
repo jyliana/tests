@@ -1,4 +1,4 @@
-package com.company;
+package com.company.essay;
 
 public class Employee extends Department {
     private int payment;
@@ -15,5 +15,13 @@ public class Employee extends Department {
 
     public int getWorkhours() {
         return workhours;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "payment=" + payment +
+                ", workhours=" + workhours +
+                '}';
     }
 }

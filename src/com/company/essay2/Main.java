@@ -1,4 +1,4 @@
-package com.company;
+package com.company.essay;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,5 @@ public class Main {
 
         department.writeCollection(list, "department.tmp");
         ArrayList<Employee> newList = department.readCollection("department.tmp");
-        System.out.println("!");
-
     }
 }
