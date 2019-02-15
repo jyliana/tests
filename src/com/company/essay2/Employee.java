@@ -1,4 +1,4 @@
-package com.company.essay;
+package com.company.essay2;
 
 public class Employee extends Department {
     private int payment;
